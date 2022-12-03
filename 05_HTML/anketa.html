@@ -12,7 +12,7 @@
 			
 			<p><input type="text" name="secondname" required size="25"   autofocus  pattern="^[А-Яа-яЁё\s]+$"  ></p>
 			<p><input type="text" name="name"  required size="20"  pattern="^[А-Яа-яЁё\s]+$"  ></p>
-			<p><input type="text" name="name" required size="24"   pattern="^[А-Яа-яЁё\s]+$" ></p>
+			<p><input type="text" name="name2" required size="24"   pattern="^[А-Яа-яЁё\s]+$" ></p>
 			
 
 			<fieldset>
@@ -22,7 +22,7 @@
 			<FIELDSET>
 				<legend>Дата рождения</legend>
 				
-				<p><input type="text" required name="num" size="4"  pattern="[0-9]{4,4}" min="-4" maxlength="4"></p>
+				<p><input type="text" required name="number" size="4"  pattern="[0-9]{4,4}" min="-4" maxlength="4"></p>
 
 				<p><select>
 					<option>Январь</option>
@@ -60,10 +60,10 @@
 		<fieldset>
 			<legend required>Хобби</legend>
 			
-				<p><input type="checkbox" name="a"  >Рыбалка</p>
-				<p><input type="checkbox" name="a"  >Астрономия</p>
-				<p><input type="checkbox" name="a"  >Дайвинг</p>
-				<p><input type="checkbox" name="a"  >Марки</p>
+				<p><input type="checkbox" name="fishinf"  >Рыбалка</p>
+				<p><input type="checkbox" name="astro"  >Астрономия</p>
+				<p><input type="checkbox" name="diving"  >Дайвинг</p>
+				<p><input type="checkbox" name="marks"  >Марки</p>
 			
 		</fieldset>
 
@@ -72,7 +72,7 @@
 		<fieldset>
 			
 			<legend>Домашние животные (возможность выбора нескольких вариантов)</legend>
-			<p><select multiple="3" size="12">
+			<p><select multiple="3" name="spisok" size="12">
 				<optgroup label="Попугаи">	
 				<option>Волнистый</option>
 				<option>Ара</option>
@@ -125,6 +125,7 @@
 
 			<p><input type="submit" name="send" value="Отправить"><input type="reset" value="Сбросить"></p>
 			<p><a href=""><img src="mail.jpg"></p>
+
 		</fieldset>
 
 </form>
