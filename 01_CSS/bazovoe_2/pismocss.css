@@ -1,0 +1,51 @@
+.primer{
+	text-align: right;
+}
+.adres{
+	text-align: right;
+	margin-bottom: 0.1em;
+	font-style: italic;
+	
+
+}
+.imya{
+	text-align: right;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	
+
+}
+.mened{
+	text-align: right;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+}
+.ind{
+	text-align: right;
+	margin-top: 0.1em;
+	font-style: italic;
+}
+.iva
+{
+	text-align: left;
+	font-weight: bold;
+	font-family: 'Bad Script', serif;
+	text-decoration: underline;
+	margin-left: 17em;
+	
+	
+}
+.soob{
+	text-align: left;
+	margin-left: 15em;
+
+	font-family: 'Bad Script', serif;
+	text-indent: 2em;
+
+
+}
+p{
+	margin-left: 15em;
+	
+}
+
