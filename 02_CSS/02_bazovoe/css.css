@@ -1,0 +1,22 @@
+.code{
+	background-color: black;
+	color: green;
+	width: 400px;
+	margin-top:20px;
+	padding: 10px;
+	height: 100px;
+	overflow: auto;
+
+}
+
+.cont{
+	margin-bottom: 1px;
+	font-size: 130%;
+	font-weight: bold;
+	margin-top: 1px;
+}
+.spisok{
+	margin-left: 30px;
+	margin-top: 0px;
+	margin-bottom: 1px;
+}

@@ -1,0 +1,47 @@
+.karta1{
+	width: 140px;
+	height: 200px;
+
+	background-color: #696969;
+	
+	background-repeat: no-repeat;
+	float: left;
+	background-position: 0px 0px;
+
+}
+.karta2{
+	width: 140px;
+	height: 200px;
+	background-color: gold;
+	background-position: 569px 790px;
+	float: left;
+	margin-left: -60px;
+	
+}
+.karta3{
+	width: 140px;
+	height: 200px;
+	background-color: blue;
+	background-position: 279px 1191px;
+	float: left;
+	margin-left: -60px;
+	
+}
+.karta4{
+	width: 140px;
+	height: 200px;
+	background-color: green;
+	background-position: 424px 395px;
+	float: left;
+	margin-left: -60px;
+	
+}
+.karta5{
+	width: 140px;
+	height: 200px;
+	background-color: pink;
+	background-position: 571px 199px;
+	float: left;
+	margin-left: -60px;
+	
+}
