@@ -1,0 +1,52 @@
+.navi{
+	
+	width: 15em;
+	background-color: grey;
+	overflow: auto;
+	
+	float: left;
+	margin-right: 0px;
+	background-repeat: no-repeat;
+
+}
+.stat1{
+	height: 120px;
+	width: 100%;
+	margin-bottom: 0.2em;
+	padding: 1px;
+	margin-left: 240px;
+	background-color:  #696969;
+	
+
+	}
+	.stat2{
+		height: 197px;
+		width: 100%;
+		padding: 1px;
+		margin-left: 240px;
+		background-color: #A9A9A9;
+	}
+	body{
+		width: 100%;
+		background-color:  #D3D3D3;
+		margin: 0px;
+	}
+	.podval{
+		width: 100%; /*не понимаю почему не растягивается на всю ширину*/
+		background-color:  #696969;
+		overflow: auto;
+
+
+	}
+	.mail{
+		
+		margin: 0px;
+		width: 75px;
+	}
+	.clear{
+		
+		height: 5px;
+		float: top;
+		margin: 7px;
+		
+	}
