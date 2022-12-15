@@ -1,0 +1,107 @@
+body{
+	height: 1000px;
+	width: auto;
+	
+	padding: 250px;
+	
+	
+	
+}
+
+.fon{
+	width: 260px;
+	height: 200px;
+	background-color: grey;
+	width: 280px;
+	background-image: url('b-l.gif'),url('b-r.gif'),url('t-l.gif'),url('t-r.gif'),url('b.gif'),url('t.gif'),url('l.gif'),url('r.gif'),url('t.gif'),url('b.gif');
+	background-repeat: no-repeat,no-repeat,no-repeat,no-repeat, repeat-x, repeat-x, repeat-y,repeat-y;
+	background-position: bottom left, bottom right, top left, top right, bottom, top, left, right ;
+
+	float: left;
+	margin: 0px;
+	
+	
+
+
+}
+
+.l{
+	width: 140px;
+	height: 200px;
+	margin-left: -329px;
+	background-position: 18px 80px;
+	
+	
+	background-image: url(l.gif) ;
+
+	background-repeat: no-repeat;
+	
+	background-size: 120px;
+
+	float: left;
+
+}
+.r{
+	
+	width: 240px;
+	height: 250px;
+	margin: -116px;
+	background-position: 18px 210px;
+	
+	
+	background-image: url(r.gif) ;
+
+	background-repeat: no-repeat;
+	
+	background-size: 120px;
+
+	float: right;
+	
+}
+.t{
+	
+	width: 240px;
+	height: 450px;
+	margin: -237px;
+	background-position: 93px 210px;
+	
+	
+	background-image: url(t.gif) ;
+
+	background-repeat: no-repeat;
+	
+	background-size: 4px;
+
+	float: left;
+	
+}
+.b{
+	
+	width: 240px;
+	height: 550px;
+	margin: -237px;
+	background-position: 93px 369px;
+	
+	
+	background-image: url(b.gif) ;
+
+	background-repeat: no-repeat;
+	
+	background-size: 4px;
+
+	float: left;
+	
+}
+.kvad{
+	
+	width: 352px;
+	height: 271px;
+	background-image: url('b-l.gif'),url('b-r.gif'),url('t-l.gif'),url('t-r.gif');
+	background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+	background-position: bottom left, bottom right, top left, top right;
+	background-size: 40px;
+	margin: -35px;
+
+	
+
+}

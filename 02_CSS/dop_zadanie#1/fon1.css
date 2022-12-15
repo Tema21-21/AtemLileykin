@@ -1,0 +1,18 @@
+body{
+	height: 400px;
+	width: auto;
+	overflow: auto;
+}
+
+.fon{
+	
+	padding: 2.5em ;
+	
+	background-size: auto;
+	background-image: url(verx_levo.png), url(verx_pravo.png), url(niz_pravo.png), url(niz_levo.png), url(verx.png), url(niz.png), url(pravo.png), url(levo.png);
+	background-color: white;
+	background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,  repeat-x,  repeat-x, repeat-y, repeat-y;
+
+	background-position: top left, top right, bottom right, bottom left, top, bottom, right, left ;
+	
+}
