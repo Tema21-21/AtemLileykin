@@ -1,0 +1,71 @@
+.flex-container{
+display: flex;
+flex-direction: row;
+flex-grow: 2;
+align-self: flex-start;
+
+}
+.flex{
+	display:flex;
+	flex-direction: column;
+	align-self: flex-end;
+
+	
+}
+.pod{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.navi{
+	height: 230px;
+	width: 100%;
+	background-color: grey;
+	
+}
+.stat1{
+	margin-bottom: 0.3em;
+	width: 100%;
+	
+	background-color:  #696969;
+	
+
+	}
+	.stat2{
+		
+		width: 100%;
+		
+		
+		background-color: #A9A9A9;
+	}
+	
+	.podval{
+	
+		background-color:  #696969;
+		width: 100%;
+
+
+	}
+	.mail{
+		
+		margin: 0px;
+		width: 75px;
+	}
+	.clear{
+		
+		height: 5px;
+		float: top;
+		margin: 7px;
+		
+	}
+
+
+
+
+body{
+		width: auto;
+		background-color:  #D3D3D3;
+		margin: 0px;
+		height: 500px;
+	}
