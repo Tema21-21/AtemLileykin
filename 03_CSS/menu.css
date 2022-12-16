@@ -1,0 +1,58 @@
+
+.nedelka{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	transition-duration: 1.5s;
+	transition-property: all;
+	
+
+
+	
+}
+.knopki{
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 2px solid #4C5054;
+	background-color: #B4B4B4;
+	position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 95px;
+	
+    
+  
+}
+
+.knopki-content{
+	 display: none;
+    position: absolute;
+    background-color: #B4B4B4;
+    min-width: 100px;
+    -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 2px solid #4C5054;
+	
+	
+}
+.knopki-content a{
+	color: black;
+    padding: 5px 4px;
+    text-decoration: none;
+    display: block;
+    transition-timing-function: linear;
+    
+}
+
+.knopki:hover .knopki-content{
+	display: block;
+	/*right:-100px; не совсем понял как при узком экране сделать чтобы выдвигалось вправо*/
+	
+}
+.knopki:hover .nedelka{
+	background-color:#4C5054 ;
+	background-color: #4C5054;
+	
+}
